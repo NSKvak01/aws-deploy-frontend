@@ -24,7 +24,7 @@ export default class App extends Component {
           <Route exact path='/' component={Home} />
           <Route exact path='/sign-up' component={Signup} />
           <Route exact path='/sign-in' component={Signin} />
-
+          <p>Get that talk!!!</p>
           <PrivateRoute exact path='/create-talk' component={CreateTalk} />
           <PrivateRoute exact path='/see-talk/:id' component={SeeTalk} />
           <PrivateRoute exact path='/user-profile' component={UserProfile} />
